@@ -17,6 +17,13 @@ The Scheduler Part of the application is a part of our add on feature to this ap
 2. Hourly Scheduler which runs every hour to use the live data fetched from the scrapper to forecast the future values
 3. Monthly Scheduler which runs every month to use the data generated for the month and forecast the future month's predictions 
 ---
+## Architecture Diagram
+
+![AQI architecture](https://user-images.githubusercontent.com/64360092/222782567-0fe00a6f-93fd-4563-b410-7fb086e536c5.png)
+
+The above diagram shows the architecture of our entire application with including making dynamic predictions based on real time data using the scheduler application running on the AWS EC2 instance
+
+---
 ## Hourly Scheduler for Scrapper
 ### Details
 ```
