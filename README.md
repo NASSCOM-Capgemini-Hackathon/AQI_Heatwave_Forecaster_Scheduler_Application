@@ -1,7 +1,17 @@
-# AQI_Heatwave_Forecaster_Scheduler_Application
----
-*The Scheduler Part of the application is a part of our add on feature to this application apart from the hacakthon's objective where we have planned to dynamically fetch the live data of AQI and Temperature from live data sources online by scrapping the websites and then training the model in a feeback basis by the scheduler application which run on our AWS EC2 instance.*
----
+<div align="center">
+<h1> AQI_Heatwave_Forecaster_Scheduler_Application
+</h1>
+
+<p>
+The Scheduler Part of the application is a part of our add on feature to this application apart from the hacakthon's objective where we have planned to dynamically fetch the live data of AQI and Temperature from live data sources online by scrapping the websites and then training the model in a feeback basis by the scheduler application which run on our AWS EC2 instance.
+</p>
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+![Amazon AWS](https://img.shields.io/static/v1?style=for-the-badge&message=Amazon+AWS&color=232F3E&logo=Amazon+AWS&logoColor=FFFFFF&label=)
+
+<hr>
+</div>
+
 ## Scheduler's Used based on Time
 1. Hourly Scheduler which runs every hour to Scrape the live data from the website
 2. Hourly Scheduler which runs every hour to use the live data fetched from the scrapper to forecast the future values
